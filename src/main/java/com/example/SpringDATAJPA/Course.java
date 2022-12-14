@@ -1,4 +1,4 @@
-package com.example.SpringJPAHibernate.JPA;
+package com.example.SpringDATAJPA;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -23,9 +23,9 @@ public class Course {
 
 
 
-	public Course(int id, String name, String author) {
+	public Course(int i, String name, String author) {
 		super();
-		this.id = id;
+		this.id = i;
 		this.name = name;
 		this.author = author;
 	}
